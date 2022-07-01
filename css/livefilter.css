@@ -19,7 +19,7 @@ body {
   border-radius: 5px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  width: 300px;
+  width: 500px;
 }
 
 .title {
@@ -28,12 +28,17 @@ body {
 
 .subtitle {
   display: inline-block;
-  margin: 5px 0 20px;
+  margin: 5px 0 0;
   opacity: 0.8;
 }
 
+.api-list {
+  font-size: 12px;
+  color: black;
+}
+
 .header {
-  background-color: #3e57db;
+  background-color: green;
   color: #fff;
   padding: 30px 20px;
 }
@@ -48,8 +53,8 @@ body {
   width: 100%;
 }
 
-.header input:focus {
-  outline: none;
+.header input::placeholder {
+  color: white;
 }
 
 .user-list {
@@ -86,7 +91,7 @@ body {
 }
 
 .user-list li:not(:last-of-type) {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid gainsboro;
 }
 
 .user-list li.hide {

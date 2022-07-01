@@ -4,16 +4,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/css/livefilter.css" />
+  <link rel="stylesheet" href="style.css" />
   <title>Live User Filter</title>
 </head>
 
 <body>
   <div class="container">
     <header class="header">
-      <h4 class="title">Live User Filter</h4>
-      <small class="subtitle">Search by name and/or location</small>
-      <input type="text" id="filter" placeholder="Search">
+      <h4 class="title">사용자 검색</h4>
+      <small class="subtitle">이름 또는 위치로 검색</small>
+      <p class="api-list">* 오픈 api를 사용한 사용자 리스트</p>
+      <input type="text" id="filter" placeholder="검색">
     </header>
 
     <ul id="result" class="user-list">
@@ -22,7 +23,7 @@
       </li>
     </ul>
   </div>
-  <script src="/js/livefilter.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
