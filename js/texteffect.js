@@ -1,8 +1,8 @@
 const textEl = document.getElementById("text");
 const speedEl = document.getElementById("speed");
-const text = "We Love Programming!";
+const text = "프론트엔드 javascript 백엔드 javascript 개발!";
 let idx = 1;
-let speed = 300 / speedEl.value;
+let speed = 200 / speedEl.value;
 
 writeText();
 
